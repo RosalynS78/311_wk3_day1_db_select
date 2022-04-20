@@ -60,6 +60,7 @@ Answer - id - 7 First name = Mitsue
 2.
   * How many rows were returned:
   * What states do they live in:
+  
 SELECT 
     state
 FROM
