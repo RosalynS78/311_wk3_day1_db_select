@@ -50,7 +50,7 @@ Also, put the answers in the "Query Responses" section of this README.
 SELECT 
     *
 FROM
-    users2
+    users
 WHERE
     city = 'Chicago'
 
@@ -64,7 +64,7 @@ Answer - id - 7 First name = Mitsue
 SELECT 
     state
 FROM
-    users2
+    users
 WHERE
     first_name LIKE 'Glory'
   
@@ -75,10 +75,10 @@ Answer - MD, TX
   * How many rows were returned:
   * What's the last email on the list:
 
- SELECT 
+SELECT 
     *
 FROM
-    users2
+    users
 WHERE
     phone1 LIKE '773%'
 
